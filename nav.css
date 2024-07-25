@@ -1,0 +1,18 @@
+.nav{
+    width: 100%;
+    height:70px;
+    background-color: aliceblue;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.nav .partb{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vh;
+}
+.nav 
+.nav .parta{
+    margin-left: 10vh;
+}
