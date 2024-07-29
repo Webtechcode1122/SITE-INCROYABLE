@@ -1,0 +1,15 @@
+.page1 h1{
+    color: white;
+    font-size: 10vh;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0f00e6, 0 0 40px #0c00e6, 0 0 50px #1700e6, 0 0 60px #0000e6, 0 0 70px #003ae6;
+    font-weight: 100;
+    transition: 1s ease-in-out;
+}
+.page1 h1:hover{
+    letter-spacing: 25px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e68e00, 0 0 40px #e6a900, 0 0 50px #e68e00, 0 0 60px #e65c00, 0 0 70px #e62e00;
+
+}
+.page1 h1:hover ~ .page1{
+ background-color: #0000e6;
+}
