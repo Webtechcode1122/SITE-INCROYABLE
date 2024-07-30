@@ -18,11 +18,13 @@ body{
 }
 .page1{
     width: 100%;
-height: 100vh;
-    background-color:var(--back);
+    height: 100vh;
+    background-color: #000000;
+    transition: background-color 0.5s ease;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .page2{
     width: 100%;
@@ -33,14 +35,4 @@ height: 100vh;
     width: 100%;
     height: 100vh;
     background-color:var(--back);
-}
-.page1 video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0; /* Hide video initially */
-    transition: opacity 0.3s;
 }

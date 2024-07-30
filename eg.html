@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect with Video Background</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .parent {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: #000000; /* Default background color */
+            transition: background-color 0.5s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .parent h1 {
+            position: relative;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.5);
+            color: rgb(0, 0, 0);
+            font-size: 24px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .page1 video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .page1.hovered video {
+            opacity: 1;
+        }
+
+        .page1.hovered {
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="page1">
+        <video src="855117-hd_1280_720_30fps.mp4" autoplay muted loop></video>
+        <h1>  Hover over me!</h1>
+    </div>
+
+    <script>
+        const parentDiv = document.querySelector('.page1');
+        const childDiv = document.querySelector('.page1 h1');
+
+        childDiv.addEventListener('mouseover', () => {
+            parentDiv.classList.add('hovered');
+        });
+
+        childDiv.addEventListener('mouseout', () => {
+            parentDiv.classList.remove('hovered');
+        });
+    </script>
+</body>
+</html>

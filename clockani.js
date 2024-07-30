@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const parent = document.querySelector('.page1');
     const child = document.querySelector('.page1 h1');
-    const video = document.querySelector('.video');
+    const video = document.querySelector('.page1 video');
 
     child.addEventListener('mouseover', () => {
         video.style.opacity = 1; // Show the video
