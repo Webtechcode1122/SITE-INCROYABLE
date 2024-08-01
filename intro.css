@@ -44,7 +44,7 @@ body{
   border: solid 1px white;
 }
 .card1:hover{
-    background-color: rgba(4, 134, 2, 0.208);
+    background-color: rgba(4, 134, 2, 0.158);
 }
 .card1 h1{
     margin-top:-5%;
@@ -64,7 +64,7 @@ body{
 }
 .wrep a{
     background-color: rgb(33, 109, 250);
-    border-radius:20px;
+    border-radius:2px;
     padding: 10px 10px;
     border: none;
     font-size:2vh;

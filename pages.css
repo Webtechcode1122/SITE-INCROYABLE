@@ -5,6 +5,7 @@
     font-weight: 100;
     /* padding: 20px; */
     z-index: 999999;
+    transition: 1s;
 }
 .page1 video {
     position: absolute;
@@ -25,9 +26,26 @@
 .page1 video :hover {
     background-color: transparent;
 }
-.page1 h5{
+.page1 h3{
     position: absolute;
     top:60%;
     z-index:999999;
     color: white;
+}
+.page1 h1:hover{
+    letter-spacing:25px;
+}
+.page2 h1{
+    letter-spacing:5px;
+    font-size:6vh;
+}
+.page2 .wrepall{
+    margin-left: 5vh;
+    line-height:9vh;
+}
+.page2 .wrepall a{
+    text-decoration:none;
+    color: white;
+    padding:10px 10px;
+    border:solid white 1px;
 }
