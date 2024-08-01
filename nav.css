@@ -1,16 +1,12 @@
-*{
+/* *{
     font-family: "spacetron";
-}
+} */
 :root{
     --colblack:rgb(255, 255, 255);
     --colwhhite:black;
 }
 html{
     scroll-behavior: smooth;
-}
-@font-face{
-    font-family:spacetron;
-    src: url(spacetron.otf);
 }
 .nav{
     width: 100%;

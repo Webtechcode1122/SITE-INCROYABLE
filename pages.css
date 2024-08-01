@@ -25,3 +25,9 @@
 .page1 video :hover {
     background-color: transparent;
 }
+.page1 h5{
+    position: absolute;
+    top:60%;
+    z-index:999999;
+    color: white;
+}

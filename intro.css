@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+ 
+    font-family: spacetron;
+
+}
+@font-face{
+    font-family:spacetron;
+    src: url(spacetron.otf);
+}
+body{
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    width: 500px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  border: solid 1px white;
+}
+.card1:hover{
+    background-color: rgba(4, 134, 2, 0.208);
+}
+.card1 h1{
+    margin-top:-5%;
+    transition: 1s ease-in-out;
+    font-weight: 400;
+}
+.card1 h1:hover{
+   letter-spacing:2px;
+   font-weight:900;
+}
+.card1 h4{
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: white;
+    margin-top:10%;
+    text-align: center;
+}
+.wrep a{
+    background-color: rgb(33, 109, 250);
+    border-radius:20px;
+    padding: 10px 10px;
+    border: none;
+    font-size:2vh;
+    text-decoration: none;
+    color: white;
+    transition:1s ease-in-out;
+    margin-top: 10%;
+}
+.wrep a:hover{
+    background-color:rgb(16, 51, 115);
+}
+.wrep{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    gap:2vh;
+}
